@@ -1,0 +1,136 @@
+.search-div{
+    flex: 1 ,0 ;
+    /* width: 100%; */
+}
+.search-btn{
+    background-color: rgb(254, 189, 105);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px ;
+}
+.search-img{
+    width: 2rem;
+}
+.search-dropdown{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    background-color: #f0eeee;
+    padding-left: .2rem;
+}
+
+.search-input{
+    padding: 1rem;
+    width: auto;
+    height: 3.5rem;
+}
+/*.nav-right > div{
+    margin-left:5% ;
+    flex: 1;
+} */ 
+.nav-left,.search-div,.nav-right{
+    display: flex;
+}
+.header{
+    justify-content: space-between;
+    width: 100vw;
+}
+.nav-font-top{
+    font-size: 1rem;
+    color: rgba(255, 255, 255,.8);
+    margin-bottom: 0px;
+}
+.nav-font-bottom{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+}
+
+.header{
+    background-color: #131A22;
+    color: rgb(255, 255, 255);
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+.logo > img{
+    width: 10rem;
+}
+.current-lang{
+    margin-left: .5rem;
+    font-weight: 600;
+}
+.shopping-cart{
+    /* width: px; */
+    z-index: -1;
+}   
+.cart-num{
+    color: rgb(254, 189, 105);
+    z-index: 5;
+    font-size: 30px;
+    font-weight: 500;
+    bottom: 1.2rem;
+    left:2.5rem;
+}
+
+.name-cart{
+    top: 0cm;
+}
+
+/* @media (min-width: 1251px) {
+    .order-stats{
+        display: block;
+    }
+    .language{
+        display: flex;
+    }
+} */
+
+.second-top-menu{
+    /* /* display: flex */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    background-color:#232F3E ;
+    color: white;
+    border: 1px solid #232F3E;
+    overflow-x: hidden; 
+}
+.second-top-menu .btns{
+    /* /* margin: .5%; */
+    /* padding: .5%;  */ 
+    /* margin-top: .5rem;
+    margin-bottom: .5rem; */
+    /* padding: .5rem; */
+}
+
+.second-top-menu .btns:hover{
+    border:  white;
+}
+
+
+
+@media (max-width: 1500px) {
+    .order-stats,
+    .language,
+    .flag-img,.drp-dwn>span{
+        display: none;
+    }
+    .location-logo > i,
+    .select-address,
+    .language,.location{
+        display: none;
+    }
+
+}
+
+@media (max-width:576px){
+   .nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .cart-btn{
+    display: inline-block;
+   }
+    
+}
+
