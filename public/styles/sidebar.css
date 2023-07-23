@@ -1,0 +1,67 @@
+:root {
+    --sidebarwidth: 20%;
+}
+  
+.sidebar-wrapper{
+    background-color: rgba(0, 0, 0,.5);
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    z-index: 7;
+}
+
+.sidebar{
+    width:var(--sidebarwidth);
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    background-color: white;
+    z-index: 8;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.sidebar-close-btn{
+    position: relative;
+    cursor: pointer;
+}
+.sidebar-close-btn > i{
+    /* position: absolute;
+    z-index: 9;
+    right: 0px; */
+    color: white;
+}
+.top-sidebar{
+    background-color:#232F3E ;
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+    /* vertical-align: top; */
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.top-sidebar > span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left:20px ;
+}
+.sidebar-link-list {
+    margin: 0px;
+}
+.sidebar-link-list >li{
+    padding: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.sidebar-link-list > h5{
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.sidebar-link-list >li{
+    list-style-type: none;
+}
+.sidebar-link-list >li:hover{
+    background-color: rgb(218, 217, 217);
+
+}
