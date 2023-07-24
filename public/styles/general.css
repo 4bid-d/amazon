@@ -1,10 +1,10 @@
 @font-face {
     font-family: amazonEmber;
     src: url(../fonts/Amazon\ Ember\ Cd\ RC.otf);
-  }
+}
 
-body{
-    /* font-family: amazonEmber ,Arial, Helvetica, sans-serif ; */
+ body{
+    font-family: Roboto,amazonEmber ,Arial, Helvetica, sans-serif ; 
 }
 .wrapper{
     position: relative;
